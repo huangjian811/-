@@ -1,0 +1,12 @@
+<!--pages/about/about.wxml-->
+<text class="title">{{name}}</text>
+<!--1.数据绑定-->
+<view>我的年龄：{{age}}</view>
+
+<!--2.列表循环 -->
+<view wx:for="{{movies}}">
+<text>编号:{{item.id}}</text>
+<text>姓名:{{item.name}}</text>
+<text>年龄:{{item.age}}</text>
+</view>
+
